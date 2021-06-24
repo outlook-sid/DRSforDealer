@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">DRS for Dealer</string>
+    <string name="startup_text_1_1">Digital Ration System</string>
+    <string name="startup_text_1_2">For Dealers</string>
+    <string name="signintocontinue">Sign in to continue</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="are_you_want_to_exit">"Are you sure\nyou want to exit?"</string>
+    <string name="customer_in_wrong_time">"Selected date and time slots does not match current date and time"</string>
+    <string name="confirm_ration_items">Confirm ration items</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="decline_ration_items">Decline ration items</string>
+    <string name="a_smart_way_to_collect_your_ration">A Smart way to Collect your Ration</string>
+    <string name="rice">Rice</string>
+    <string name="amount_allotted_per_card">Amount allotted per card</string>
+    <string name="price_per_kg">Price per Kg</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="kg">Kg</string>
+    <string name="inr">₹</string>
+    <string name="exit">Exit</string>
+    <string name="quantity_per_card_in_kg">Quantity per card (in Kg)</string>
+    <string name="quantity_per_card_in_lit">Quantity per card (in Liter)</string>
+    <string name="wheat">Wheat</string>
+    <string name="sugar">Sugar</string>
+    <string name="kerosene_oil">Kerosene oil</string>
+    <string name="liter">Liter</string>
+    <string name="price_per_liter">Price per Liter</string>
+    <string name="view_ration_for_month_2">View Ration for present/past month</string>
+    <string name="view_ration_supplies_1">View Ration Supplies</string>
+    <string name="_00">00</string>
+    <string name="show_for_a_different_month">Show for a different month</string>
+    <string name="dashboard_upload_button_text">Update Ration Supplies</string>
+    <string name="dashboard_view_button_text">View Ration Supplies</string>
+    <string name="dashboard_scan_button_text">Tap to scan a bill</string>
+    <string name="sign_out">Sign out</string>
+    <string name="welcome">Welcome</string>
+    <string name="example">Example</string>
+    <string name="devices">Bluetooth Devices</string>
+
+
+    <string name="bluetoothMessage">%1$s_%2$s_%3$s_%4$s_</string>
+    <string name="copy_code_and_connect">Copy token and Connect</string>
+    <string name="you_need_to_paste_the_special_token_when_asked">You need to paste the special token when asked…</string>
+
+</resources>

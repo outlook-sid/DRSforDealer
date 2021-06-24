@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#b3b3ff</color>
+    <color name="colorPrimaryDark">#001f33</color>
+    <color name="colorAccent">#cc99ff</color>
+
+    <color name="color_Amber">#ff9933</color>
+    <color name="color_DeepBlue">#000033</color>
+    <color name="color_DeepBlack">#000000</color>
+    <color name="color_PureWhite">#ffffff</color>
+    <color name="color_Grey">#737373</color>
+    <color name="color_SkyBlue">#1aa3ff</color>
+    <color name="color_SeaGreen">#8D87DFC7</color>
+    <color name="color_LiteSeaGreen">#D1F0E8</color>
+    <color name="color_FadedBlue">#5A6FE3</color>
+    <color name="color_Blue">#0066cc</color>
+    <color name="color_Blue1">#1981CA</color>
+    <color name="color_Pale">#D5E9EA</color>
+    <color name="color_Yellow">#8DFDED58</color>
+    <color name="color_Brown">#8D610404</color>
+
+    <color name="color_FadedYellow">#FFEEB2</color>
+    <color name="color_FadedBlack">#262626</color>
+    <color name="color_LitePink">#FBCDCD</color>
+    <color name="color_FadedBrown">#cc6666</color>
+    <color name="color_Red">#d70f0f</color>
+    <color name="color_LeafGreen">#049534</color>
+    <color name="color_FadedGreen">#ccffcc</color>
+    <color name="color_BluishGrey">#B6B0CA</color>
+    <color name="color_LitePurple">#e6ccff</color>
+    <color name="color_Transparent">#00FFFFFF</color>
+    <color name="color_BluishGreen">#80D0E7</color>
+
+
+
+</resources>
+
