@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.drsfordealer.R;
@@ -39,6 +40,8 @@ public class RationItemsInfoAdapter extends RecyclerView.Adapter<RationItemsInfo
         holder.textViewItemPricePerUnit.setText(rationItem.getPrice());
         holder.textViewItemAmount.setText(rationItem.getMaxPerHead());
         holder.textViewItemSubtotal.setText(rationItem.getSubtotal());
+        if (rationItem.getItemName().equals("Kerosene oil"))
+            holder.textViewItemUnit.setText("Liter");
     }
 
     @Override
@@ -52,14 +55,15 @@ public class RationItemsInfoAdapter extends RecyclerView.Adapter<RationItemsInfo
         TextView textViewItemPricePerUnit;
         TextView textViewItemAmount;
         TextView textViewItemSubtotal;
+        TextView textViewItemUnit;
 
         public RationItemsInfoViewHolder(@NonNull View itemView) {
             super(itemView);
-
             textViewItemName = itemView.findViewById(R.id.tv_ration_item_name);
             textViewItemPricePerUnit = itemView.findViewById(R.id.tv_ration_item_price);
             textViewItemAmount = itemView.findViewById(R.id.tv_ration_item_amt);
             textViewItemSubtotal = itemView.findViewById(R.id.tv_ration_item_subtotal);
+            textViewItemUnit = itemView.findViewById(R.id.ration_item_unit);
         }
     }
 }

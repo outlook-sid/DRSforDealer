@@ -8,27 +8,6 @@
     android:transitionName="transition_provide_ration"
     tools:context=".activity.InterfaceWithHardware">
 
-
-    <!--
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary" />
-
-        </com.ge.android.material.appbar.AppBarLayout>
-
-        <RelativeLayout
-            android:id="@+id/fragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
-    -->
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

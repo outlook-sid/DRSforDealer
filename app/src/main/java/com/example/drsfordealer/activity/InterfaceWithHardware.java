@@ -11,7 +11,6 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.drsfordealer.R;
-import com.example.drsfordealer.database.BluetoothMessageSessionManager;
 import com.example.drsfordealer.database.TransactionModel;
 import com.google.android.material.button.MaterialButton;
 import com.google.firebase.database.DatabaseReference;
@@ -37,19 +36,17 @@ public class InterfaceWithHardware extends AppCompatActivity  {
         assert transactionModel != null;
         String stringMessageToBeSent = getString(R.string.bluetoothMessage,
                 transactionModel.getTransactionRiceAmt(), transactionModel.getTransactionWheatAmt(), transactionModel.getTransactionSugarAmt(), transactionModel.getTransactionKeroseneAmt());
-        BluetoothMessageSessionManager bluetoothMessageSessionManager = new BluetoothMessageSessionManager(InterfaceWithHardware.this);
-        bluetoothMessageSessionManager.createBTMessageSession(stringMessageToBeSent, customerID);
-
 
         materialButtonProvideRation.setOnClickListener(v -> {
-            /** Copy code to clipBoard*/
+            // Copy code to clipBoard
             ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
             ClipData clip = ClipData.newPlainText("code_code", stringMessageToBeSent);
             clipboard.setPrimaryClip(clip);
 
-            /** launch another app to connect to bluetooth*/
+            //launch another app to connect to bluetooth
             Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.example.myapplication");
             if (launchIntent != null) {
+                launchIntent.putExtra("Bluetooth_Token", stringMessageToBeSent);
                 stepCount = 1;
                 startActivity(launchIntent);//null pointer check in case package name was not found
                 linearLayout1.setVisibility(View.GONE);
